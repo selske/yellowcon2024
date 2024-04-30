@@ -1,6 +1,6 @@
 package be.yellowcon.hexagonal.adapters.rest;
 
-import be.yellowcon.hexagonal.domain.ports.in.UseCase;
+import be.yellowcon.hexagonal.application.ports.in.UseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

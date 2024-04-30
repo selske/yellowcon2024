@@ -5,7 +5,8 @@ plugins {
 dependencies {
     implementation project(':adapters:rest')
     implementation project(':adapters:sql')
-    implementation project(':domain')
+    //implementation project(':adapters:mongodb')
+    implementation project(':application')
 
     implementation platform('org.springframework.boot:spring-boot-dependencies:3.2.4')
     implementation 'org.springframework.boot:spring-boot-starter-actuator'

@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation project(':domain')
+    implementation project(':application')
     
     implementation platform('org.springframework.boot:spring-boot-dependencies:3.2.4')
     implementation 'org.springframework.boot:spring-boot-starter-web'
