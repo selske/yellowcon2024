@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'be.yellowcon'
+version = '1.0-SNAPSHOT'
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
